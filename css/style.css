@@ -12,7 +12,7 @@ body {
 }
 
 .content {
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.3);
     padding: 20px;
     border-radius: 10px;
     max-width: 90%;
@@ -27,6 +27,7 @@ h1 {
 p {
     font-size: 1.2rem;
     line-height: 1.6;
+    margin: 0 0 20px 0;
 }
 
 @media (min-width: 768px) {
@@ -37,4 +38,11 @@ p {
     p {
         font-size: 1.5rem;
     }
+}
+
+iframe {
+    max-width: 100%; /* Ajusta ao tamanho da tela */
+    height: 80px; /* Compacta a altura */
+    margin-top: 20px; /* Espaço entre o texto e o player */
+    border-radius: 10px; /* Deixa o player com cantos arredondados */
 }
